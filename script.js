@@ -65,7 +65,7 @@ const randomChoreDoorGenerator = () => {
 
 
 
-doorImage1.onclick = () => {
+door1.onclick = () => {
   if(currentlyPlaying && !isClicked(doorImage1)) {
   doorImage1.src = openDoor1;
   playDoor(door1);
@@ -73,7 +73,7 @@ doorImage1.onclick = () => {
 }
 
 
-doorImage2.onclick = () => {
+door2.onclick = () => {
   if(currentlyPlaying && !isClicked(doorImage2)) {
   doorImage2.src = openDoor2;
   playDoor(door2);
@@ -81,7 +81,7 @@ doorImage2.onclick = () => {
 }
 
 
-doorImage3.onclick = () => {
+door3.onclick = () => {
   if(currentlyPlaying && !isClicked(doorImage3)) {
   doorImage3.src = openDoor3;
   playDoor(door3);
